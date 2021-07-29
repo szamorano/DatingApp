@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steve\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\steve\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steve\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\steve\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\steve\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\steve\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\steve\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\steve\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
