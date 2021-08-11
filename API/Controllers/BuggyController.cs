@@ -1,3 +1,4 @@
+using System;
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Authorization;
@@ -35,11 +36,20 @@ namespace API.Controllers
         [HttpGet("server-error")]
         public ActionResult<string> GetServerError()
         {
-            var thing = _context.Users.Find(-1);
+            try
+            {
+                var thing = _context.Users.Find(-1);
 
-            var thingToReturn = thing.ToString();
+                var thingToReturn = thing.ToString();
 
-            return thingToReturn;
+                return thingToReturn;
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Computer says no!");
+            }
+
+            
         }
 
         
